@@ -1,0 +1,18 @@
+git 命令：
+#查看工作区状态
+git status
+#修改
+git add filename
+#提交
+git commit -m '修改说明'
+#查看修改日志
+git log
+git log --pretty=oneline
+#版本回退 HEAD^^：表示回退上上一个版本  HEAD~100 表示回退100个版本
+git reset --hard HEAD^
+#查看文件内容
+cat filename
+#回复到任意版本
+git reset --hard 'commint_id'
+#操作命令记录查看（附带commit_id）
+git reflog
