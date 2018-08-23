@@ -16,3 +16,5 @@ cat filename
 git reset --hard 'commint_id'
 #操作命令记录查看（附带commit_id）
 git reflog
+#查看工作区和版本库中的差异
+git diff HEAD -- filename
