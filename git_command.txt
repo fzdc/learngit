@@ -22,3 +22,7 @@ git diff HEAD -- filename
 git checkout -- filename
 #恢复暂存区的文件到工作区
 git reset HEAD filename
+#删除文件
+rm filename
+#删除版本库中的文件,并且需要提交
+git rm filename
