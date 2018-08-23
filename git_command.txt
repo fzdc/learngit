@@ -18,7 +18,7 @@ git reset --hard 'commint_id'
 git reflog
 #查看工作区和版本库中的差异
 git diff HEAD -- filename
-#恢复工作区文件到修改之前
+#恢复工作区文件到修改之前/包括被删除且已经提交文件
 git checkout -- filename
 #恢复暂存区的文件到工作区
 git reset HEAD filename
