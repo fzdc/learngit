@@ -16,7 +16,7 @@ git reset --hard HEAD^
 cat filename
 #回复到任意版本
 git reset --hard 'commint_id'
-#操作命令记录查看（附带commit_id）
+#操作命令记录查看,配合上边命令可以任意穿梭版本之间（附带commit_id）
 git reflog
 #查看工作区和版本库中的差异
 git diff HEAD -- filename
