@@ -1,4 +1,6 @@
 git 命令：
+#创建git仓库
+git init
 #查看工作区状态
 git status
 #修改
@@ -36,3 +38,7 @@ git clone git@github.com:michaelliao/gitskills.git
 git clone git https://github.com/michaelliao/gitskills.git
 #查看远程库信息
 git remote -v
+#创建并切换到dev分支
+git checkout -b dev
+#查看当前分支
+git branch
