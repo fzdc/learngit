@@ -42,3 +42,5 @@ git remote -v
 git checkout -b dev
 #查看当前分支
 git branch
+#切换到master分支
+git checkout master
