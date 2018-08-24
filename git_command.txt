@@ -51,4 +51,4 @@ git merge --no-ff -m 'dd' dev
 #删除dev分支
 git branch -d dev
 #查看分支合并图
- git log --graph --pretty=oneline --abbrev-commit
+git log --graph --pretty=oneline --abbrev-commit
