@@ -28,7 +28,6 @@ git reset HEAD filename
 rm filename
 #删除版本库中的文件,并且需要提交
 git rm filename
-
 #推送到远程库
 git push origin master
 #关联远程库
