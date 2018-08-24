@@ -48,4 +48,5 @@ git checkout master
 git merge （dev）
 #删除dev分支
 git branch -d dev
-Switched to a new branch 'feature1'
+#查看分支合并图
+git log --graph
