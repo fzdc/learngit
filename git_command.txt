@@ -60,3 +60,13 @@ git stash apply  //  git stash drop
 git stash pop
 #可以多次stash
 git stash apply stash@{0}来指定需要恢复的stash
+#创建标签
+git tag v1.0
+git tag v1.0 commit_id
+#删除标签
+git tag -d v1.0
+#推送标签到远程
+git push origin v1.0
+git push origin --tag  #推送全部
+#远程删除标签
+#git push origin :refs/tags/v1.0
