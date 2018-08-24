@@ -60,4 +60,3 @@ git stash apply  //  git stash drop
 git stash pop
 #可以多次stash
 git stash apply stash@{0}来指定需要恢复的stash
-
