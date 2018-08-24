@@ -46,7 +46,9 @@ git branch
 git checkout master
 #合并dev分支到当前分支
 git merge （dev）
+#使用no-ff合并，保留分支记录
+git merge --no-ff -m 'dd' dev
 #删除dev分支
 git branch -d dev
 #查看分支合并图
-git log --graph
+ git log --graph --pretty=oneline --abbrev-commit
