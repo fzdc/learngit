@@ -52,3 +52,13 @@ git merge --no-ff -m 'dd' dev
 git branch -d dev
 #查看分支合并图
 git log --graph --pretty=oneline --abbrev-commit
+#隐藏工作现场
+git stash
+#查看工作现场
+git stash list
+#恢复隐藏的工作现场(pop回复并删除隐藏区stash)
+git stash apply  //  git stash drop
+git stash pop
+#可以多次stash
+git stash apply stash@{0}来指定需要恢复的stash
+
