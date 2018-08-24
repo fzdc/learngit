@@ -44,3 +44,7 @@ git checkout -b dev
 git branch
 #切换到master分支
 git checkout master
+#合并dev分支到当前分支
+git merge （dev）
+#删除dev分支
+git branch -d dev
